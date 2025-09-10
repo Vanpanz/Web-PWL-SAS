@@ -1,7 +1,5 @@
 <h1 align="center">LamarKuy! - SAS Pemrograman Website Lanjutan</h1>
 - 🔭 Link Figma [https://www.figma.com/design/uswGeboH12vigvqc2GmZBD/Untitled?node-id=104-271&t=ArnzQXqRQpBwrudH-1]
-<br>
--🔭 Link Figma [https://www.figma.com/design/kccGebaj9jQUbyogvlbywo/Untitled?node-id=0-1&t=SbxiBc0uGZg3vUI2-1]
 
 <h3 align="left">Connect with me: </h3>
 - ryuzzzzzzxxz
