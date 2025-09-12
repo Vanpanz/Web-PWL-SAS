@@ -2,11 +2,11 @@
 - 🔭 Link Figma [https://www.figma.com/design/uswGeboH12vigvqc2GmZBD/Untitled?node-id=104-271&t=ArnzQXqRQpBwrudH-1]
 <br>
 <h2>Instalasi</h2>
-- Ketik git clone <link github ini>
+- git clone <link git ini>
 <br>
--cd Projek-Web-PWL
+- cd Projek-Web-PWL
 <br>
--
+-Jika ingin melihat codingan web, ketik "code ."
 <h3 align="left">Connect with me: </h3>
 - ryuzzzzzzxxz
 <br>
