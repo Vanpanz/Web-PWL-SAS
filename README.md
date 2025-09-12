@@ -17,7 +17,7 @@
 - Kami menggunakan Lisensi MIT yang membebaskan kepada pengguna untuk menggunakan, menyalin, memodifikasi serta berkolaborasi antar pengguna, sehingga kami memutuskan untuk menggunakan Lisensi MIT
 <br>
 
-<h2> align="left">Connect with me: </h2>
+<h2 align="left">Connect with me: </h2>
 - ryuzzzzzzxxz
 <br>
 - Agustino6363
