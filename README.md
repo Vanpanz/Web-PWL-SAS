@@ -2,7 +2,7 @@
 - 🔭 Link Figma [https://www.figma.com/design/uswGeboH12vigvqc2GmZBD/Untitled?node-id=104-271&t=ArnzQXqRQpBwrudH-1]
 <br>
 <h2>Instalasi</h2>
-- git clone <link git ini>
+- git clone https://github.com/Vanpanz/Web-PWL-SAS.git
 <br>
 - cd Projek-Web-PWL
 <br>
