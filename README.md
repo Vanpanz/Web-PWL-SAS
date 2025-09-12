@@ -1,4 +1,4 @@
-<h1 align="center">LamarKuy! - SAS Pemrograman Website Lanjutan</h1>
+<h1 align="center">LamarKuy! - STS-SAS Pemrograman Website Lanjutan</h1>
 - 🔭 Link Figma [https://www.figma.com/design/uswGeboH12vigvqc2GmZBD/Untitled?node-id=104-271&t=ArnzQXqRQpBwrudH-1]
 <br>
 <h2>Instalasi</h2>
@@ -7,7 +7,17 @@
 - cd Projek-Web-PWL
 <br>
 -Jika ingin melihat codingan web, ketik "code ."
-<h3 align="left">Connect with me: </h3>
+<br>
+<h2> Penggunaan </h2>
+- Jalankan situs dengan membuka caripelamar.html
+  <br>
+- Ikuti alur yang telah diberikan oleh website
+
+<h2> Lisensi </h2>
+- Kami menggunakan Lisensi MIT yang membebaskan kepada pengguna untuk menggunakan, menyalin, memodifikasi serta berkolaborasi antar pengguna, sehingga kami memutuskan untuk menggunakan Lisensi MIT
+<br>
+
+<h2> align="left">Connect with me: </h2>
 - ryuzzzzzzxxz
 <br>
 - Agustino6363
