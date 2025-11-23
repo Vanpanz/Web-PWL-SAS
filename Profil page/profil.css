@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #FFFFFF; /* Latar belakang gelap seperti di gambar */
+    color: #FFFFFF; /* Teks putih untuk header/nav */
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header dan Logo */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.logo-graphic {
+    margin-right: 12px;
+}
+
+.logo-graphic .bar1 {
+    width: 35px;
+    height: 12px;
+    background-color: #0D6EFD; /* Biru primer */
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.logo-graphic .bar2 {
+    width: 25px;
+    height: 12px;
+    background-color: #0D6EFD;
+    border-radius: 3px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.tagline {
+    font-size: 0.85rem;
+    color: black;
+}
+
+/* Navigasi Kembali */
+.back-navigation {
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.back-link i {
+    background-color: #0D6EFD;
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+/* Konten Utama (Layout Flex) */
+.main-content {
+    display: flex;
+    gap: 30px; /* Jarak antara dua kartu */
+}
+
+/* Gaya Kartu Umum */
+.card {
+    background-color: #FFFFFF;
+    border: 2px solid #0D6EFD;
+    border-radius: 15px;
+    padding: 30px;
+    color: #333333; /* Teks gelap di dalam kartu */
+}
+
+/* Sidebar Profil (Kiri) */
+.profile-sidebar {
+    flex-basis: 300px; /* Lebar tetap */
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.avatar-container i {
+    font-size: 50px;
+    color: #AAAAAA;
+}
+
+.profile-sidebar h2 {
+    font-size: 1.3rem;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.profile-sidebar p {
+    font-size: 0.9rem;
+    color: #777777;
+    margin-bottom: 25px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px; /* Sangat bulat */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #0D6EFD;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Form Profil (Kanan) */
+.profile-form {
+    flex-grow: 1; /* Mengisi sisa ruang */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.form-group input::placeholder {
+    color: #AAAAAA;
+}
+
+/* Membuat input readonly terlihat 'terisi' */
+.form-group input[readonly] {
+    background-color: #F8F9FA;
+    color: #555;
+}

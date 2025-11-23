@@ -1,0 +1,70 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1920px;   /* batas lebar agar konsisten di semua laptop */
+  margin: 0 auto;
+}
+
+.community-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-left: -750px;
+    margin-right: 100px;
+}
+
+.btn-join {
+    display: inline-block;
+    margin-left: 930px;
+    padding: 8px 14px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.hero{
+  background-image: url("../../IMG FOLDER/bannerpwl.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 60px 20px;
+  min-height: 220px;
+}
+
+.Jelajahi-header {
+    text-align: center;
+    margin-left: -890px;
+    align-items: center;
+    padding: 20px;
+}
+
+.Jelajahi{
+  align-items: center;
+}
+
+.btn-more {
+    display: block;
+    margin: 24px auto 0;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}

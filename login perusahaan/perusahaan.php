@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LamarKuy! - Daftar</title>
-  <link rel="stylesheet" href="daftar.css">
+  <title>LamarKuy! - Login</title>
+  <link rel="stylesheet" href="perusahaan.css">
 </head>
 <body>
   <!-- Header -->
@@ -16,25 +16,20 @@
         <p>Achieve Higher, Growth Better.</p>
       </div>
     </div>
-    <a href="login.html" class="back-link">⬅ Kembali</a>
+    <a href="../index.php" class="back-link">⬅ Kembali</a>
   </header>
 
-  <!-- Register Box -->
+  <!-- Login Box -->
   <div class="login-box">
-    <h2>Daftar</h2>
-    <form action="login.html" method="post">
+    <h2>Masuk</h2>
+    <form action="../Formulir perusahaan/formulir_perusahaan.php" method="post">
       <label for="email">Masukkan Alamat Email</label>
       <input type="email" id="email" name="email" required>
 
-      <label for="password">Buat Password Anda</label>
+      <label for="password">Masukkan Password</label>
       <input type="password" id="password" name="password" required>
 
-      <p class="terms">
-        Dengan Mendaftar, Saya Sudah Menyetujui 
-        <a href="#">Syarat Kebijakan LamarKuy!</a>
-      </p>
-
-      <button type="submit" class="btn-masuk">Daftar</button>
+      <button type="submit" class="btn-masuk">Masuk</button>
     </form>
 
     <p class="atau">Atau</p>
@@ -55,7 +50,7 @@
 </div>
 
     <p class="signup-link">
-      <a href="index.html">Saya Sudah Punya Akun</a>
+      <a href="../Daftar/daftar.php">Belum Punya Akun?</a>
     </p>
   </div>
 </body>

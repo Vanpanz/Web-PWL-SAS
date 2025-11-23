@@ -1,0 +1,188 @@
+/* reset & base */
+* { margin:0; padding:0; box-sizing:border-box; font-family: Inter, Arial, sans-serif; color:#0b1220; }
+body { background:#ffffff; }
+
+/* header */
+.container-navbar { display:flex; align-items:center; justify-content:space-between; padding:18px 28px; border-bottom:1px solid rgba(37,99,235,0.08); max-width:1400px; margin:0 auto; }
+header .logo { display:flex; align-items:center; gap:12px; }
+header .logo img{ height:40px; }
+.logo-text .lamarkuy-title{ font-weight:700; color:#2563eb; font-size:18px; display:block; }
+.logo-text .lamarkuy-slogan{ font-size:12px; color:#6b7280; margin-top:2px; }
+
+/* nav & buttons */
+nav.main-nav { display:inline-flex; gap:18px; align-items:center; }
+nav.main-nav a { color:#0b1220; text-decoration:none; font-size:14px; padding:6px 0; }
+.nav-buttons { display:flex; gap:12px; align-items:center; }
+.btn-masuk, .btn-perusahaan { background:#2563eb; color:#fff; border:none; padding:8px 12px; border-radius:8px; cursor:pointer; }
+.btn-masuk:hover, .btn-perusahaan:hover { background:#1d4ed8; }
+
+/* main wrapper background area */
+.profile-main { background:#f6f9ff; min-height:calc(100vh - 88px); padding:26px 34px; }
+
+/* back button */
+.back-row { max-width:1200px; margin:0 auto 18px; padding-left:8px; }
+.back-link { display:inline-flex; align-items:center; gap:10px; color:#2563eb; text-decoration:none; font-size:14px; }
+.back-circle {
+  display:inline-flex; align-items:center; justify-content:center;
+  width:34px; height:34px; border-radius:50%; border:2px solid rgba(37,99,235,0.18);
+  background:#fff; color:#2563eb; font-weight:600;
+}
+
+/* grid layout */
+.profile-grid { max-width:1200px; margin:0 auto; display:grid; grid-template-columns: 240px 1fr; gap:22px; align-items:start; }
+
+/* left column (card style, blue panel) */
+.left-col {
+  background:#d9eafe; padding:22px; border-radius:12px; display:flex; flex-direction:column; align-items:center; gap:12px;
+  box-shadow: 0 6px 18px rgba(13,52,105,0.03);
+}
+.company-img { width:130px; height:130px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(2,6,23,0.06); }
+.company-name { font-size:20px; margin-top:6px; font-weight:700; color:#0b1220; text-align:center; }
+.company-meta, .company-size, .company-location { font-size:13px; color:#1f2937; text-align:center; line-height:1.4; }
+
+/* action buttons under logo */
+.side-actions { display:flex; flex-direction:column; gap:10px; width:100%; margin-top:6px; align-items:center; }
+.side-actions .btn-masuk, .side-actions .btn-perusahaan { width:85%; padding:8px 10px; border-radius:8px; }
+
+/* right column cards (blue rounded panels) */
+.right-col { display:flex; flex-direction:column; gap:18px; }
+.card {
+  background:#d7e9ff; padding:20px; border-radius:10px; box-shadow: 0 6px 18px rgba(13,52,105,0.04);
+}
+.card h3 { margin-bottom:10px; font-size:20px; }
+.card p { color:#0b1220; font-size:14px; line-height:1.6; }
+
+/* benefits pills */
+.benefit-list { display:flex; gap:12px; flex-wrap:wrap; }
+.pill {
+  background:#fff; color:#2563eb; padding:8px 14px; border-radius:999px; font-size:13px; border:1px solid rgba(37,99,235,0.12);
+}
+
+/* DokumentasiPerusahaan */
+.DokumentasiPerusahaan { max-width:1200px; margin:20px auto; padding:0 8px; }
+.DokumentasiPerusahaan .doc-inner { background:transparent; padding-bottom:8px; }
+.DokumentasiPerusahaan h3 { margin:12px 0 10px 4px; font-size:18px; color:#0b1220; }
+
+/* gallery */
+/* gallery + lightbox */
+.gallery { display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:12px; margin-top:8px; }
+.gallery img { width:100%; height:140px; object-fit:cover; border-radius:8px; cursor:pointer; border:1px solid rgba(2,6,23,0.04); }
+.lightbox { position:fixed; inset:0; display:none; align-items:center; justify-content:center; background:rgba(0,0,0,0.6); z-index:9999; }
+.lightbox.active { display:flex; }
+
+/* reviews */
+.reviews-container { max-width:1200px; margin:24px auto; padding:0 12px 20px; border-bottom:1px solid rgba(2,6,23,0.04); }
+.rating-summary { display:flex; gap:12px; background:#fff; border:1px solid rgba(2,6,23,0.06); border-radius:8px; padding:18px; align-items:center; }
+.rating-overall { width:160px; text-align:left; }
+.rating-overall .score { font-size:28px; font-weight:700; color:#0b1220; }
+.rating-overall .stars { color:#2563eb; margin:8px 0; font-size:13px; }
+.rating-overall .total { font-size:13px; color:#556; }
+
+/* breakdown */
+.rating-breakdown { flex:1; padding:0 12px; }
+.break-row { display:flex; align-items:center; gap:8px; margin:6px 0; }
+.bar { flex:1; height:10px; background:#eef2fb; border-radius:999px; overflow:hidden; }
+.bar-fill { height:100%; background:#cbdcff; border-radius:999px; display:block; }
+
+/* circle (small) */
+.rating-recommend { width:140px; text-align:center; display:flex; gap:10px; align-items:center; justify-content:center; }
+.circle-wrap { position:relative; width:64px; height:64px; display:inline-block; }
+.rating-circle { width:64px; height:64px; transform:rotate(-90deg); }
+.rating-circle .circle-bg { fill:none; stroke:#eef4ff; stroke-width:3; }
+.rating-circle .circle { fill:none; stroke:#2563eb; stroke-width:3; stroke-linecap:round; transition: stroke-dasharray 800ms ease; }
+.circle-wrap .percent { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-weight:700; color:#0b1220; font-size:14px; }
+.rating-recommend .rec-text { font-size:12px; line-height:1.15; }
+
+/* category cards */
+.category-cards { display:flex; gap:12px; flex-wrap:wrap; margin-top:16px; }
+.cat { background:#fff; border:1px solid rgba(2,6,23,0.06); padding:12px 14px; border-radius:8px; min-width:140px; }
+.cat .cat-title { font-weight:600; margin-bottom:8px; }
+.cat .cat-stars { color:#2563eb; margin-bottom:6px; font-size:13px; }
+.cat.highlighted { border:2px solid #2563eb; box-shadow:0 6px 18px rgba(37,99,235,0.06); }
+
+/* review */
+.review-card { display:flex; gap:16px; margin-top:12px; border:1px solid rgba(2,6,23,0.06); border-radius:8px; overflow:hidden; background:#fff; }
+.review-meta { width:220px; background:#f7fbff; padding:16px; border-right:1px solid rgba(2,6,23,0.04); font-size:13px; color:#0b1220; }
+.review-body { padding:16px; flex:1; }
+.pros-cons { display:flex; flex-direction:column; gap:12px; margin-bottom:12px; }
+.review-actions {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-top:14px;
+}
+.btn-masuk,
+.btn-perusahaan,
+.side-actions .btn-masuk,
+.side-actions .btn-perusahaan {
+  background: #ffffff;
+  color: #2563eb;
+  border: 1px solid rgba(37,99,235,0.18);
+  box-shadow: 0 2px 8px rgba(37,99,235,0.06);
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color .18s ease, transform .12s ease, box-shadow .18s ease;
+  font-weight:600;
+}
+
+/* hover / fokus untuk tombol putih */
+.btn-masuk:hover,
+.btn-perusahaan:hover,
+.side-actions .btn-masuk:hover,
+.side-actions .btn-perusahaan:hover,
+.btn-masuk:focus,
+.btn-perusahaan:focus {
+  background: #f1f7ff;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(37,99,235,0.08);
+  outline: none;
+}
+
+/* tombol kecil di review (help/report) — konsisten, putih dengan icon biru */
+.help-btn,
+.report-btn {
+  background: #ffffff;
+  border: 1px solid rgba(2,6,23,0.06);
+  color: #2563eb;
+  padding: 8px 12px;
+  border-radius: 10px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  cursor:pointer;
+  transition: background-color .12s ease, box-shadow .12s ease;
+}
+
+/* hover/fokus untuk tombol review */
+.help-btn:hover,
+.report-btn:hover,
+.help-btn:focus,
+.report-btn:focus {
+  background: rgba(37,99,235,0.06);
+  box-shadow: 0 6px 14px rgba(2,6,23,0.04);
+  color: #0b1220;
+  outline: none;
+}
+
+/* status aktif untuk help-btn (tetap terlihat berbeda) */
+.help-btn.active {
+  background: rgba(37,99,235,0.12);
+  box-shadow: none;
+  color: #0b1220;
+}
+
+/* responsive kecilkan padding pada layar sempit */
+@media (max-width:480px) {
+  .btn-masuk, .btn-perusahaan, .help-btn, .report-btn {
+    padding: 7px 10px;
+    border-radius: 8px;
+    font-size:13px;
+  }
+}
+@media (max-width:960px) {
+  .profile-grid { grid-template-columns: 1fr; padding:0 12px; }
+  .gallery img { height:110px; }
+  .review-card { flex-direction:column; }
+}

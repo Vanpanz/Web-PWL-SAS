@@ -16,20 +16,20 @@
         <p>Achieve Higher, Growth Better.</p>
       </div>
     </div>
-    <a href="index.html" class="back-link">⬅ Kembali</a>
+    <a href="../index.php" class="back-link">⬅ Kembali</a>
   </header>
 
   <!-- Login Box -->
   <div class="login-box">
     <h2>Masuk</h2>
-    <form action="dashboard.html" method="post">
+    <form action="../Isi database/db-login.php" method="post">
       <label for="email">Masukkan Alamat Email</label>
       <input type="email" id="email" name="email" required>
 
       <label for="password">Masukkan Password</label>
       <input type="password" id="password" name="password" required>
 
-      <button type="submit" class="btn-masuk">Masuk</button>
+      <button type="submit" name="login" class="btn-masuk">Masuk</button>
     </form>
 
     <p class="atau">Atau</p>
@@ -50,8 +50,9 @@
 </div>
 
     <p class="signup-link">
-      <a href="daftar.html">Belum Punya Akun?</a>
+      <a href="/Daftar/daftar.php">Belum Punya Akun?</a>
     </p>
   </div>
 </body>
 </html>
+<!-- -->

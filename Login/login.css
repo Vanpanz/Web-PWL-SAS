@@ -40,7 +40,7 @@ body {
   }
   
   .login-box {
-    max-width: 420px;
+    max-width: 400px;
     margin: 50px auto;
     background: #fff;
     padding: 30px;
@@ -90,18 +90,20 @@ body {
     color: #555;
   }
   
-  .terms {
-    font-size: 12px;
-    margin: 10px 0;
-    color: #555;
-  }
-  
-  .terms a {
-    color: #2563eb;
-    text-decoration: none;
-  }
-  
-  .social-login {
+  .social-login a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.social-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.social-login {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -133,7 +135,11 @@ body {
   height: 22px;
   object-fit: contain;
 }
-
+  
+  .btn-google { background: #fff; }
+  .btn-facebook { background: #fff; }
+  .btn-twitter { background: #fff; }
+  
   .signup-link {
     margin-top: 15px;
   }
@@ -143,3 +149,5 @@ body {
     text-decoration: none;
     color: #2563eb;
   }
+  
+  

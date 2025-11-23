@@ -40,7 +40,7 @@ body {
   }
   
   .login-box {
-    max-width: 400px;
+    max-width: 420px;
     margin: 50px auto;
     background: #fff;
     padding: 30px;
@@ -68,6 +68,57 @@ body {
     border: 1px solid #ccc;
   }
   
+  .container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 420px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container h3 {
+  margin: 15px 0 10px;
+  color: #007BFF;
+  font-size: 16px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+
   .btn-masuk {
     background: #2563eb;
     color: white;
@@ -90,20 +141,18 @@ body {
     color: #555;
   }
   
-  .social-login a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-
-.social-icon {
-  width: 22px;
-  height: 22px;
-  object-fit: contain;
-}
-
-.social-login {
+  .terms {
+    font-size: 12px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .terms a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .social-login {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -135,11 +184,7 @@ body {
   height: 22px;
   object-fit: contain;
 }
-  
-  .btn-google { background: #fff; }
-  .btn-facebook { background: #fff; }
-  .btn-twitter { background: #fff; }
-  
+
   .signup-link {
     margin-top: 15px;
   }
@@ -149,4 +194,3 @@ body {
     text-decoration: none;
     color: #2563eb;
   }
-  

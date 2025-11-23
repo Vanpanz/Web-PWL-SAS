@@ -1,0 +1,130 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+.body {
+
+  font-family: Arial, sans-serif;
+  
+}
+
+.nav-buttons{
+  display: flex;
+  gap: 20px;
+}
+.btn-kunjungi, .btn-ulasan{
+  display: flex;
+  flex-direction: row;
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.btn-kunjungi:hover, .btn-ulasan:hover { background-color: #10359a; }
+
+.company-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0 30px 40px 30px;
+}
+
+.ListPerusahaan {
+  margin-left: 25px;
+}
+
+.link-underline{
+  text-decoration: underline;
+}
+ 
+.company-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border: 1px solid #e5e7eb;
+}
+ 
+.company-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.company-logo {
+  width: 12em;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 0;
+  margin-left: 0;
+  display: block;
+}
+ 
+.company-detail {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+ 
+.company-actions{
+    margin-top: 40px;
+    margin-left: -208px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: flex-start;
+}
+ 
+.company-info h3 {
+  margin: 0 0 6px 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+ 
+.company-rating {
+  font-size: 18px;
+  color: #2563eb;
+  margin-bottom: 5px;
+  display: block;
+}
+ 
+.company-industry,
+.company-location {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 4px;
+  margin-top: 15px;
+}
+ 
+.company-positions {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+ 
+.positions-box {
+  background: #5ea3ff;
+  color: #fff;
+  border-radius: 10px;
+  padding: 18px 20px;
+  min-width: 240px;
+}
+ 
+.positions-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+ 
+.positions-list div {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #fff;
+}
+ 

@@ -1,0 +1,44 @@
+.container {
+    max-width: 10px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 20px;
+    padding: 0 16px;
+    
+}
+
+.sidebar {
+    background: #ffffff;
+    border: 1px solid rgba(2, 6, 23, 0.06);
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.03);
+    position: sticky;
+    top: 96px; /* adjust to header height */
+    height: calc(100vh - 120px);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+    font-weight: 600;
+    color: #0b1220;
+    transition: background .16s ease, transform .08s ease;
+}
+
+.side-item:hover {
+    background: rgba(37, 99, 235, 0.04);
+}

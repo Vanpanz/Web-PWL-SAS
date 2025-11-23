@@ -4,37 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LamarKuy! - Portal Kerja</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Landing page/style.css">
 </head>
 <body>
-  <!-- Navbar -->
-  <header>
-  <div class="container-navbar" style="display: flex; align-items: center; justify-content: space-between;">
-    <div class="logo">
-      <a href="index.html">
-        <img src="IMG FOLDER/logo lamar.png" alt="LamarKuy Logo">
-      </a>
-      <div class="logo-text">
-        <span class="lamarkuy-title">LamarKuy!</span>
-        <span class="lamarkuy-slogan">Achieve Higher, Growth Better.</span>
-      </div>
-    </div>
-    <nav>
-      <a href="formulir-pekerja.html">Formulir</a>
-      <a href="lowongan.html">lowongan Pekerjaan</a>
-      <a href="profilperusahaan.html">profil perusahaan</a>
-      <a href="tentangkami.html">tentang kami</a>
-    </nav>
-    <div class="nav-buttons">
-      <button class="btn-masuk" onclick="window.location.href='login.html'">Masuk</button>
-      <button class="btn-perusahaan" onclick="window.location.href='perusahaan.html'">Untuk perusahaan</button>
-    </div>
-  </div>
-</header>
+  
+  <?php include "./header/header.php";?> 
 
-  <!-- Hero Banner -->
+
+  
+ <!-- Hero Banner -->
   <section class="hero">
-    <img
+    
     <h1>Bingung Mulai Dari Mana? Cari Di Sini!</h1>
     <div class="search-box">
       <input type="text" placeholder="Perusahaan">
@@ -92,7 +72,7 @@
             <div class="carousel-item">
             <div class="carousel-card">
               <div class="img-wrapper">
-                 <img src="IMG FOLDER/deliote.png" alt="Deloitte">
+                 <img src="../IMG FOLDER/deliote.png" alt="Deloitte">
               </div>
                 <p>“Tips & Trik Berkarir Sebagai Akuntan Sukses”</p>
                 <span>Periode : 17 Agustus - 19 Agustus 2025</span>
@@ -101,7 +81,7 @@
             <div class="carousel-item">
             <div class="carousel-card">
               <div class="img-wrapper">
-                <img src="IMG FOLDER/image-removebg-preview (1).png" alt="Coda Payments">
+                <img src="../IMG FOLDER/image-removebg-preview (1).png" alt="Coda Payments">
               </div>
                 <p>“Menjadi Pengembang Layanan Yang Cerdas”</p>
                 <span>Periode : 18 Agustus - 21 Agustus 2025</span>
@@ -111,7 +91,7 @@
             <div class="carousel-item">
             <div class="carousel-card">
               <div class="img-wrapper">
-                <img src="IMG FOLDER/Traveloka.png" alt="Traveloka">
+                <img src="../IMG FOLDER/Traveloka.png" alt="Traveloka">
               </div>
                 <p>“Satu Langkah Kecil Membawa Perubahan Besar”</p>
                 <span>Periode : 16 Agustus - 20 Agustus 2025</span>
@@ -121,7 +101,7 @@
             <div class="carousel-item">
             <div class="carousel-card">
               <div class="img-wrapper">
-                <img src="IMG FOLDER/Coway (1).jpg" alt="Coway">
+                <img src="../IMG FOLDER/Coway (1).jpg" alt="Coway">
               </div>
                 <p>"Jernihkan Pikiran Layaknya Air Bersih</p>
                 <span>Periode : 13 Agustus - 14 Agustus 2025</span>
@@ -141,7 +121,7 @@
            <div class="carousel-item">
             <div class="carousel-card">
               <div class="img-wrapper">
-              <img src="IMG FOLDER/jiva.jpg" alt="jiva">
+              <img src="../IMG FOLDER/jiva.jpg" alt="jiva">
               </div>
               <p>"Mengembangkan Teknologi Pertanian Untuk Masa Depan</p>
               <span>Periode : 16 Agustus - 20 Agustus 2025</span>
@@ -151,7 +131,7 @@
             <div class="carousel-item">
             <div class="carousel-card">
               <div class="img-wrapper">
-              <img src="IMG FOLDER/ASRI.jpg" alt="ASRI">
+              <img src="../IMG FOLDER/ASRI.jpg" alt="ASRI">
               </div>
               <p>"Mengelola Property Kepunyaan Dengan Bijak"</p>
               <span>Periode : 11 Agustus - 15 Agustus 2025 </span>
@@ -161,7 +141,7 @@
            <div class="carousel-item">
             <div class="carousel-card">
               <div class="img-wrapper">
-              <img src="IMG FOLDER/tiket.com.jpg" alt="tiket">
+              <img src="../IMG FOLDER/tiket.com.jpg" alt="tiket">
               </div>
               <p>"Terbang Ke Atas Melampaui Segalanya"</p>
               <span>Periode : 12 Agustus - 16 Agustus 2025</span>
@@ -171,7 +151,7 @@
             <div class="carousel-item">
             <div class="carousel-card">
               <div class="img-wrapper">
-              <img src="IMG FOLDER/Gojek_225x225-removebg-preview.png" alt="gojek">
+              <img src="../IMG FOLDER/Gojek_225x225-removebg-preview.png" alt="gojek">
               </div>
               <p>"Telusuri Bakatmu, Kelilinglah Dunia!"</p>
               <span>Periode : 16 Agustus - 17 Agustus 2025</span>
@@ -196,27 +176,27 @@
 
   <div class="tips-container">
     <div class="tip-box">
-      <img src="IMG FOLDER/icon like.png" alt="">
+      <img src="../IMG FOLDER/icon like.png" alt="">
       <p>Selalu tonjolkan kelebihanmu dan prestasimu pada CV</p>
     </div>
     <div class="tip-box">
-      <img src="IMG FOLDER/icon dislike.png" alt="">
+      <img src="../IMG FOLDER/icon dislike.png" alt="">
       <p>Hindarilah menulis pengalaman yang tidak relevan dengan posisi yang dilamar</p>
     </div>
     <div class="tip-box">
-      <img src="IMG FOLDER/icon send.png" alt="">
+      <img src="../IMG FOLDER/icon send.png" alt="">
       <p>Jangan menunda-nunda dalam mencari pekerjaan, kirim CV mu secepatnya!</p>
     </div>
     <div class="tip-box">
-      <img src="IMG FOLDER/icon love.png" alt="">
+      <img src="../IMG FOLDER/icon love.png" alt="">
       <p>Carilah pekerjaan yang sesuai dengan minat dan bakatmu</p>
     </div>
     <div class="tip-box">
-      <img src="IMG FOLDER/icon kerja.png" alt="">
+      <img src="../IMG FOLDER/icon kerja.png" alt="">
       <p>Bangunlah profil diri yang professional dan kuat dalam CV mu</p>
     </div>
     <div class="tip-box">
-      <img src="IMG FOLDER/icon pesan.png" alt="">
+      <img src="../IMG FOLDER/icon pesan.png" alt="">
       <p>Latihlah kemampuan berkomunikasimu, jago komunikasi jago kerja</p>
     </div>
   </div>
@@ -294,7 +274,7 @@
   <div class="footer-container">
     <div class="footer-left">
       <div class="footer-logo-row">
-        <img src="IMG FOLDER/logo lamar.png" alt="LamarKuy Logo">
+        <img src="../IMG FOLDER/logo lamar.png" alt="LamarKuy Logo">
         <div class="footer-logo-text">
           <span class="footer-brand">LamarKuy!</span>
           <span class="footer-slogan">Achieve Higher, Growth Better.</span>
@@ -303,10 +283,10 @@
       <div class="footer-community">
         <span>Our Community</span>
         <div class="social-icons">
-          <a href="#"><img src="IMG FOLDER/twite.png" alt="X"></a>
-          <a href="#"><img src="IMG FOLDER/discord.png" alt="Discord"></a>
-          <a href="#"><img src="IMG FOLDER/instagram.png" alt="Instagram"></a>
-          <a href="#"><img src="IMG FOLDER/youtube.png" alt="YouTube"></a>
+          <a href="#"><img src="../IMG FOLDER/twite.png" alt="X"></a>
+          <a href="#"><img src="../IMG FOLDER/discord.png" alt="Discord"></a>
+          <a href="#"><img src="../IMG FOLDER/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="../IMG FOLDER/youtube.png" alt="YouTube"></a>
         </div>
       </div>
     </div>
