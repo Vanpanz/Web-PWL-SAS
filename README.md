@@ -1,9 +1,19 @@
 <h1 align="center">LamarKuy! - STS-SAS Pemrograman Website Lanjutan</h1>
+<h2>Pengenalan Aplikasi</h2>
+LamarKuy! adalah sebuah platform penyedia layanan pekerjaan yang dirancang untuk membantu pencari kerja menemukan peluang karier dengan cara yang lebih cepat, mudah, dan terarah. Melalui antarmuka yang sederhana dan ramah pengguna, LamarKuy! menghadirkan berbagai lowongan dari beragam industri, lengkap dengan informasi perusahaan, kualifikasi, dan persyaratan yang dibutuhkan. Pengguna dapat menelusuri pekerjaan berdasarkan kategori, lokasi, atau tingkat pengalaman, sehingga proses pencarian menjadi jauh lebih efisien.
+<br> <br>
+Tidak hanya membantu pencari kerja, LamarKuy! juga menjadi solusi praktis bagi perusahaan yang ingin menjangkau kandidat berkualitas secara lebih efektif. Dengan fitur unggahan lowongan, manajemen aplikasi, hingga penyaringan kandidat, platform ini mempermudah proses rekrutmen dari awal hingga akhir. Melalui pendekatan digital yang modern dan terintegrasi, LamarKuy! berkomitmen untuk menjadi jembatan yang mempertemukan talenta terbaik dengan perusahaan yang tepat.
+<br>
+<h2>Desain Aplikasi / Website</h2>
 - 🔭 Link Figma [https://www.figma.com/design/uswGeboH12vigvqc2GmZBD/Untitled?node-id=104-271&t=ArnzQXqRQpBwrudH-1]
 <br>
 <h2>Instalasi</h2>
+<h3>Persiapan</h3>
+Siapkan aplikasi/instalasi berikut sebelum memasuki website LamarKuy! :
+<br>
 - git clone https://github.com/Vanpanz/Web-PWL-SAS.git
 <br>
+- PHP
 - cd Projek-Web-PWL
 <br>
 -Jika ingin melihat codingan web, ketik "code ."
@@ -17,10 +27,20 @@
 - Kami menggunakan Lisensi MIT yang membebaskan kepada pengguna untuk menggunakan, menyalin, memodifikasi serta berkolaborasi antar pengguna, sehingga kami memutuskan untuk menggunakan Lisensi MIT
 <br>
 
-<h2 align="left">Kontribusi </h2>
-- ryuzzzzzzxxz
+<h2 align="left">Kontributor </h2>
+Evan Fernando Fransiskus (Designer)
 <br>
-- Agustino6363
+Username : Vanpanz
+<br>
+<br>
+Ryu Felix Darriel (Front-End)
+<br>
+Username : ryuzzzzzzxxz
+<br>
+<br>
+Selvin Agustino
+<br>
+Username : Agustino6363 (Back-End)
 <p align="left">
 </p>
 
